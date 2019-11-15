@@ -1,0 +1,986 @@
+[INFO] 2019-08-02 13:58:47,561 autoreload 33592 4558337472 /Users/jeremy/Documents/python/django/planner/planner/settings.py changed, reloading.
+[INFO] 2019-08-02 13:58:48,246 autoreload 33621 4577572288 Watching for file changes with StatReloader
+[INFO] 2019-08-02 13:58:55,512 basehttp 33621 123145518108672 "GET /api-auth/logout/?next=/api/users/ HTTP/1.1" 302 0
+[WARNING] 2019-08-02 13:58:55,576 log 33621 123145518108672 Method Not Allowed: /api/users/
+[WARNING] 2019-08-02 13:58:55,576 basehttp 33621 123145518108672 "GET /api/users/ HTTP/1.1" 405 8492
+[INFO] 2019-08-02 13:58:59,845 basehttp 33621 123145518108672 "GET /api-auth/login/?next=/api/users/ HTTP/1.1" 200 2710
+[INFO] 2019-08-02 13:59:04,659 basehttp 33621 123145518108672 "POST /api-auth/login/ HTTP/1.1" 302 0
+[WARNING] 2019-08-02 13:59:04,747 log 33621 123145518108672 Method Not Allowed: /api/users/
+[WARNING] 2019-08-02 13:59:04,748 basehttp 33621 123145518108672 "GET /api/users/ HTTP/1.1" 405 12509
+[INFO] 2019-08-02 13:59:27,846 basehttp 33621 123145518108672 "GET /api/ HTTP/1.1" 200 10180
+[INFO] 2019-08-02 15:09:27,791 autoreload 39863 4606985664 Watching for file changes with StatReloader
+[WARNING] 2019-08-02 15:09:30,468 log 39863 123145518710784 Not Found: /
+[WARNING] 2019-08-02 15:09:30,468 basehttp 39863 123145518710784 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-08-02 15:09:34,849 basehttp 39863 123145518710784 "GET /api/ HTTP/1.1" 200 10180
+[WARNING] 2019-08-02 15:09:38,587 log 39863 123145518710784 Method Not Allowed: /api/login/
+[WARNING] 2019-08-02 15:09:38,588 basehttp 39863 123145518710784 "GET /api/login/ HTTP/1.1" 405 12164
+[INFO] 2019-08-02 15:09:41,616 basehttp 39863 123145518710784 "GET /api-auth/login/?next=/api/login/ HTTP/1.1" 200 2710
+[INFO] 2019-08-02 15:09:42,789 basehttp 39863 123145518710784 "POST /api-auth/login/ HTTP/1.1" 302 0
+[WARNING] 2019-08-02 15:09:42,822 log 39863 123145518710784 Method Not Allowed: /api/login/
+[WARNING] 2019-08-02 15:09:42,823 basehttp 39863 123145518710784 "GET /api/login/ HTTP/1.1" 405 12164
+[INFO] 2019-08-02 15:09:44,286 basehttp 39863 123145518710784 "GET /api/ HTTP/1.1" 200 10178
+[WARNING] 2019-08-02 15:09:45,120 log 39863 123145518710784 Method Not Allowed: /api/users/
+[WARNING] 2019-08-02 15:09:45,120 basehttp 39863 123145518710784 "GET /api/users/ HTTP/1.1" 405 12508
+[INFO] 2019-08-02 15:10:07,834 autoreload 39863 4606985664 /Users/jeremy/Documents/python/django/planner/apps/users/serializers.py changed, reloading.
+[INFO] 2019-08-02 15:10:08,667 autoreload 40083 4540081600 Watching for file changes with StatReloader
+[INFO] 2019-08-02 15:10:10,798 autoreload 40083 4540081600 /Users/jeremy/Documents/python/django/planner/apps/users/serializers.py changed, reloading.
+[INFO] 2019-08-02 15:10:11,473 autoreload 40094 4392912320 Watching for file changes with StatReloader
+[INFO] 2019-08-02 15:10:48,348 autoreload 40094 4392912320 /Users/jeremy/Documents/python/django/planner/apps/users/serializers.py changed, reloading.
+[INFO] 2019-08-02 15:10:48,994 autoreload 40106 4451820992 Watching for file changes with StatReloader
+[WARNING] 2019-08-02 15:10:50,818 log 40106 123145548931072 Method Not Allowed: /api/users/
+[WARNING] 2019-08-02 15:10:50,818 basehttp 40106 123145548931072 "GET /api/users/ HTTP/1.1" 405 12508
+[INFO] 2019-08-02 15:10:56,844 basehttp 40106 123145548931072 "GET /api/ HTTP/1.1" 200 10178
+[INFO] 2019-08-02 15:10:58,431 basehttp 40106 123145548931072 "GET /api/plans/ HTTP/1.1" 200 15155
+[INFO] 2019-08-02 15:11:00,813 basehttp 40106 123145548931072 "GET /api/ HTTP/1.1" 200 10178
+[INFO] 2019-08-02 15:11:02,506 basehttp 40106 123145548931072 "GET /api/todos/ HTTP/1.1" 200 14519
+[INFO] 2019-08-02 15:11:03,677 basehttp 40106 123145548931072 "GET /api/ HTTP/1.1" 200 10178
+[INFO] 2019-08-02 15:39:36,407 basehttp 40106 123145548931072 "GET /api/plans/ HTTP/1.1" 200 15155
+[INFO] 2019-08-02 15:46:12,513 autoreload 40106 4451820992 /Users/jeremy/Documents/python/django/planner/apps/blog/models.py changed, reloading.
+[INFO] 2019-08-02 15:46:13,312 autoreload 40262 4602504640 Watching for file changes with StatReloader
+[INFO] 2019-08-02 15:46:20,223 autoreload 40262 4602504640 /Users/jeremy/Documents/python/django/planner/apps/blog/models.py changed, reloading.
+[INFO] 2019-08-02 15:46:21,000 autoreload 40272 4628772288 Watching for file changes with StatReloader
+[INFO] 2019-08-02 16:08:48,502 autoreload 41176 4589249984 Watching for file changes with StatReloader
+[INFO] 2019-08-02 16:11:03,873 autoreload 41226 4474013120 Watching for file changes with StatReloader
+[WARNING] 2019-08-02 16:46:56,499 log 43562 123145459814400 Not Found: /
+[WARNING] 2019-08-02 16:46:56,507 basehttp 43562 123145459814400 "GET / HTTP/1.1" 404 2465
+[WARNING] 2019-08-02 16:46:56,596 log 43562 123145465069568 Not Found: /
+[WARNING] 2019-08-02 16:46:56,601 basehttp 43562 123145465069568 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-08-02 16:47:01,401 basehttp 43562 123145459814400 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 16:47:01,544 basehttp 43562 123145465069568 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1831
+[INFO] 2019-08-02 16:47:01,618 basehttp 43562 123145465069568 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[INFO] 2019-08-02 16:47:01,623 basehttp 43562 123145470324736 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[INFO] 2019-08-02 16:47:01,626 basehttp 43562 123145459814400 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[INFO] 2019-08-02 16:47:01,651 basehttp 43562 123145459814400 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[INFO] 2019-08-02 16:47:01,723 basehttp 43562 123145459814400 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[INFO] 2019-08-02 16:47:01,728 basehttp 43562 123145465069568 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[INFO] 2019-08-02 16:56:13,679 basehttp 43562 123145459814400 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 16:56:13,841 basehttp 43562 123145465069568 "GET /admin/ HTTP/1.1" 200 4387
+[INFO] 2019-08-02 16:56:13,893 basehttp 43562 123145459814400 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 16:56:13,900 basehttp 43562 123145465069568 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 16:56:13,911 basehttp 43562 123145470324736 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[INFO] 2019-08-02 16:56:13,926 basehttp 43562 123145459814400 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 16:56:13,984 basehttp 43562 123145459814400 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 16:56:14,005 basehttp 43562 123145465069568 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 16:56:14,041 basehttp 43562 123145459814400 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2019-08-02 16:56:14,048 basehttp 43562 123145470324736 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2019-08-02 16:56:14,053 basehttp 43562 123145465069568 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[INFO] 2019-08-02 17:12:38,027 basehttp 43730 123145499611136 "GET /admin/ HTTP/1.1" 200 5898
+[INFO] 2019-08-02 17:12:38,134 basehttp 43730 123145504866304 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,139 basehttp 43730 123145510121472 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,141 basehttp 43730 123145499611136 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,263 basehttp 43730 123145499611136 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,308 basehttp 43730 123145499611136 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,313 basehttp 43730 123145504866304 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,373 basehttp 43730 123145499611136 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,400 basehttp 43730 123145504866304 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:38,405 basehttp 43730 123145499611136 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:12:40,804 basehttp 43730 123145499611136 "GET /admin/blog/category/ HTTP/1.1" 200 3513
+[INFO] 2019-08-02 17:12:40,917 basehttp 43730 123145515376640 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[INFO] 2019-08-02 17:12:40,918 basehttp 43730 123145510121472 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[INFO] 2019-08-02 17:12:40,922 basehttp 43730 123145525886976 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[INFO] 2019-08-02 17:12:40,966 basehttp 43730 123145510121472 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[INFO] 2019-08-02 17:12:40,974 basehttp 43730 123145515376640 "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[INFO] 2019-08-02 17:12:40,990 basehttp 43730 123145525886976 "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[INFO] 2019-08-02 17:12:41,003 basehttp 43730 123145504866304 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:12:41,007 basehttp 43730 123145531142144 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[INFO] 2019-08-02 17:12:41,012 basehttp 43730 123145520631808 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[INFO] 2019-08-02 17:12:41,014 basehttp 43730 123145510121472 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[INFO] 2019-08-02 17:12:41,018 basehttp 43730 123145499611136 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[INFO] 2019-08-02 17:12:41,070 basehttp 43730 123145499611136 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2019-08-02 17:12:42,916 basehttp 43730 123145499611136 "GET /admin/blog/category/add/ HTTP/1.1" 200 4006
+[INFO] 2019-08-02 17:12:42,991 basehttp 43730 123145510121472 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[INFO] 2019-08-02 17:12:42,994 basehttp 43730 123145499611136 "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[INFO] 2019-08-02 17:12:42,998 basehttp 43730 123145515376640 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[INFO] 2019-08-02 17:12:43,011 basehttp 43730 123145499611136 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[INFO] 2019-08-02 17:12:43,038 basehttp 43730 123145504866304 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:12:51,791 basehttp 43730 123145499611136 "POST /admin/blog/category/add/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 17:12:52,062 basehttp 43730 123145504866304 "GET /admin/blog/category/ HTTP/1.1" 200 5288
+[INFO] 2019-08-02 17:12:52,168 basehttp 43730 123145499611136 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:12:52,210 basehttp 43730 123145499611136 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[INFO] 2019-08-02 17:12:52,218 basehttp 43730 123145504866304 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2019-08-02 17:12:54,679 basehttp 43730 123145499611136 "GET /admin/blog/ HTTP/1.1" 200 3265
+[ERROR] 2019-08-02 17:12:56,348 log 43730 123145504866304 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:12:56,364 basehttp 43730 123145504866304 "GET /admin/blog/post/ HTTP/1.1" 500 192856
+[ERROR] 2019-08-02 17:13:18,566 log 43730 123145499611136 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:13:18,573 basehttp 43730 123145499611136 "GET /admin/blog/post/ HTTP/1.1" 500 192983
+[ERROR] 2019-08-02 17:13:30,285 log 43939 123145467559936 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:13:30,294 basehttp 43939 123145467559936 "GET /admin/blog/post/ HTTP/1.1" 500 192837
+[ERROR] 2019-08-02 17:13:45,650 log 43948 123145416015872 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:13:45,660 basehttp 43948 123145416015872 "GET /admin/blog/post/ HTTP/1.1" 500 192837
+[ERROR] 2019-08-02 17:13:59,396 log 43956 123145386422272 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:13:59,409 basehttp 43956 123145386422272 "GET /admin/blog/post/ HTTP/1.1" 500 192831
+[ERROR] 2019-08-02 17:14:01,055 log 43956 123145391677440 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:14:01,062 basehttp 43956 123145391677440 "GET /admin/blog/post/ HTTP/1.1" 500 192830
+[INFO] 2019-08-02 17:14:29,467 basehttp 43964 123145422815232 "GET /admin/blog/ HTTP/1.1" 200 3265
+[ERROR] 2019-08-02 17:14:32,264 log 43964 123145428070400 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:14:32,284 basehttp 43964 123145428070400 "GET /admin/blog/post/ HTTP/1.1" 500 192857
+[INFO] 2019-08-02 17:14:35,755 basehttp 43964 123145422815232 "GET /admin/blog/ HTTP/1.1" 200 3265
+[INFO] 2019-08-02 17:26:55,614 basehttp 43964 123145422815232 "GET /admin/blog/ HTTP/1.1" 200 3265
+[INFO] 2019-08-02 17:26:55,694 basehttp 43964 123145422815232 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,702 basehttp 43964 123145428070400 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,707 basehttp 43964 123145433325568 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,742 basehttp 43964 123145422815232 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,784 basehttp 43964 123145422815232 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,797 basehttp 43964 123145428070400 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,811 basehttp 43964 123145433325568 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,817 basehttp 43964 123145438580736 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:26:55,821 basehttp 43964 123145422815232 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[ERROR] 2019-08-02 17:26:57,751 log 43964 123145422815232 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:26:57,756 basehttp 43964 123145422815232 "GET /admin/blog/post/ HTTP/1.1" 500 192856
+[ERROR] 2019-08-02 17:27:47,287 log 44004 123145326534656 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:27:47,293 basehttp 44004 123145326534656 "GET /admin/blog/post/ HTTP/1.1" 500 191191
+[ERROR] 2019-08-02 17:28:52,925 log 44004 123145326534656 Internal Server Error: /admin/blog/post/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 312, in _query
+    db.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 224, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'blog_post.created_time' in 'field list'")
+[ERROR] 2019-08-02 17:28:52,927 basehttp 44004 123145326534656 "GET /admin/blog/post/ HTTP/1.1" 500 191188
+[INFO] 2019-08-02 17:31:31,562 basehttp 44407 123145490898944 "GET /admin/blog/post/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 17:31:31,607 basehttp 44407 123145496154112 "GET /admin/login/?next=/admin/blog/post/ HTTP/1.1" 200 1851
+[INFO] 2019-08-02 17:31:31,636 basehttp 44407 123145490898944 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:31,988 basehttp 44407 123145490898944 "GET /admin/login/?next=/admin/blog/post/ HTTP/1.1" 200 1851
+[INFO] 2019-08-02 17:31:33,011 basehttp 44407 123145496154112 "POST /admin/login/?next=/admin/blog/post/ HTTP/1.1" 200 1983
+[INFO] 2019-08-02 17:31:56,035 basehttp 44407 123145490898944 "POST /admin/login/?next=/admin/blog/post/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 17:31:56,116 basehttp 44407 123145496154112 "GET /admin/blog/post/ HTTP/1.1" 200 3485
+[INFO] 2019-08-02 17:31:56,147 basehttp 44407 123145496154112 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,154 basehttp 44407 123145496154112 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,161 basehttp 44407 123145496154112 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,167 basehttp 44407 123145496154112 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,169 basehttp 44407 123145501409280 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,179 basehttp 44407 123145496154112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,181 basehttp 44407 123145506664448 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,183 basehttp 44407 123145501409280 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,182 basehttp 44407 123145511919616 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,189 basehttp 44407 123145496154112 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:31:56,207 basehttp 44407 123145490898944 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:31:56,259 basehttp 44407 123145490898944 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[WARNING] 2019-08-02 17:31:57,912 log 44407 123145490898944 Not Found: /
+[WARNING] 2019-08-02 17:31:57,913 basehttp 44407 123145490898944 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-08-02 17:32:00,387 basehttp 44407 123145496154112 "GET /admin/blog/post/ HTTP/1.1" 200 3485
+[INFO] 2019-08-02 17:32:05,146 basehttp 44407 123145490898944 "GET /admin/blog/ HTTP/1.1" 200 3265
+[INFO] 2019-08-02 17:32:06,216 basehttp 44407 123145496154112 "GET /admin/blog/post/ HTTP/1.1" 200 3485
+[INFO] 2019-08-02 17:32:06,280 basehttp 44407 123145490898944 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:32:07,309 basehttp 44407 123145490898944 "GET /admin/blog/post/add/ HTTP/1.1" 200 8033
+[INFO] 2019-08-02 17:32:07,336 basehttp 44407 123145490898944 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:32:07,342 basehttp 44407 123145501409280 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:32:07,343 basehttp 44407 123145490898944 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:32:07,363 basehttp 44407 123145490898944 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:32:07,390 basehttp 44407 123145496154112 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:32:10,408 basehttp 44407 123145490898944 "GET /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3047
+[INFO] 2019-08-02 17:32:10,472 basehttp 44407 123145496154112 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[WARNING] 2019-08-02 17:32:20,000 log 44407 123145490898944 Not Found: /
+[WARNING] 2019-08-02 17:32:20,001 basehttp 44407 123145490898944 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-08-02 17:32:21,306 basehttp 44407 123145496154112 "GET /admin/blog/post/add/ HTTP/1.1" 200 8033
+[INFO] 2019-08-02 17:32:25,668 basehttp 44407 123145490898944 "GET /admin/blog/post/ HTTP/1.1" 200 3485
+[INFO] 2019-08-02 17:32:25,738 basehttp 44407 123145496154112 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:32:26,451 basehttp 44407 123145490898944 "GET /admin/blog/ HTTP/1.1" 200 3265
+[INFO] 2019-08-02 17:38:58,336 basehttp 44564 123145438986240 "GET /blog HTTP/1.1" 301 0
+[INFO] 2019-08-02 17:38:58,350 basehttp 44564 123145444241408 "GET /blog/ HTTP/1.1" 200 14
+[INFO] 2019-08-02 17:45:52,272 basehttp 44616 123145517621248 "GET /blog/ HTTP/1.1" 200 103
+[INFO] 2019-08-02 17:46:00,304 basehttp 44616 123145522876416 "GET /admin/blog/post/ HTTP/1.1" 200 3485
+[INFO] 2019-08-02 17:46:00,347 basehttp 44616 123145517621248 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,354 basehttp 44616 123145522876416 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,365 basehttp 44616 123145522876416 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,368 basehttp 44616 123145528131584 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,372 basehttp 44616 123145522876416 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,374 basehttp 44616 123145528131584 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,381 basehttp 44616 123145528131584 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,382 basehttp 44616 123145522876416 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,385 basehttp 44616 123145533386752 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,392 basehttp 44616 123145522876416 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,394 basehttp 44616 123145528131584 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,395 basehttp 44616 123145533386752 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,400 basehttp 44616 123145522876416 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,424 basehttp 44616 123145517621248 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:46:00,488 basehttp 44616 123145517621248 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,491 basehttp 44616 123145522876416 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,495 basehttp 44616 123145517621248 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:00,496 basehttp 44616 123145528131584 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,806 basehttp 44616 123145517621248 "GET /admin/blog/post/add/ HTTP/1.1" 200 8033
+[INFO] 2019-08-02 17:46:01,838 basehttp 44616 123145533386752 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,838 basehttp 44616 123145517621248 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,839 basehttp 44616 123145528131584 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,861 basehttp 44616 123145517621248 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,863 basehttp 44616 123145528131584 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,866 basehttp 44616 123145517621248 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:01,885 basehttp 44616 123145522876416 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:46:14,875 basehttp 44616 123145517621248 "GET /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3047
+[INFO] 2019-08-02 17:46:14,963 basehttp 44616 123145522876416 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:46:19,368 basehttp 44616 123145517621248 "POST /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 374
+[INFO] 2019-08-02 17:46:19,389 basehttp 44616 123145522876416 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+[INFO] 2019-08-02 17:46:21,177 basehttp 44616 123145517621248 "GET /admin/blog/tag/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3022
+[INFO] 2019-08-02 17:46:21,246 basehttp 44616 123145522876416 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:46:24,766 basehttp 44616 123145517621248 "POST /admin/blog/tag/add/?_to_field=id&_popup=1 HTTP/1.1" 200 369
+[INFO] 2019-08-02 17:46:28,407 basehttp 44616 123145522876416 "POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[INFO] 2019-08-02 17:46:28,498 basehttp 44616 123145517621248 "GET /admin/blog/post/ HTTP/1.1" 200 5244
+[INFO] 2019-08-02 17:46:28,576 basehttp 44616 123145517621248 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[INFO] 2019-08-02 17:46:28,604 basehttp 44616 123145517621248 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[INFO] 2019-08-02 17:46:33,632 basehttp 44616 123145517621248 "GET /blog/ HTTP/1.1" 200 205
+[INFO] 2019-11-15 19:04:30,632 autoreload 38996 4593122752 Watching for file changes with StatReloader
+[WARNING] 2019-11-15 19:04:34,900 log 38996 123145543041024 Not Found: /
+[WARNING] 2019-11-15 19:04:34,901 basehttp 38996 123145543041024 "GET / HTTP/1.1" 404 2465
+[WARNING] 2019-11-15 19:04:40,915 log 38996 123145548296192 Not Found: /
+[WARNING] 2019-11-15 19:04:40,915 basehttp 38996 123145548296192 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-11-15 19:04:41,183 basehttp 38996 123145548296192 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2019-11-15 19:04:41,283 basehttp 38996 123145548296192 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1831
+[INFO] 2019-11-15 19:04:41,709 basehttp 38996 123145543041024 "GET /api HTTP/1.1" 301 0
+[INFO] 2019-11-15 19:04:41,729 basehttp 38996 123145543041024 "GET /api/ HTTP/1.1" 200 9950
+[INFO] 2019-11-15 19:04:41,742 basehttp 38996 123145543041024 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[INFO] 2019-11-15 19:04:41,750 basehttp 38996 123145553551360 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[INFO] 2019-11-15 19:04:41,752 basehttp 38996 123145558806528 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[INFO] 2019-11-15 19:04:41,752 basehttp 38996 123145564061696 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[INFO] 2019-11-15 19:04:41,753 basehttp 38996 123145574572032 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[INFO] 2019-11-15 19:04:41,755 basehttp 38996 123145543041024 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[INFO] 2019-11-15 19:04:41,758 basehttp 38996 123145558806528 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[INFO] 2019-11-15 19:04:41,758 basehttp 38996 123145564061696 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[INFO] 2019-11-15 19:04:41,759 basehttp 38996 123145569316864 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+[INFO] 2019-11-15 19:04:41,759 basehttp 38996 123145553551360 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+[INFO] 2019-11-15 19:04:41,761 basehttp 38996 123145543041024 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[WARNING] 2019-11-15 19:04:41,844 log 38996 123145548296192 Not Found: /favicon.ico
+[WARNING] 2019-11-15 19:04:41,844 basehttp 38996 123145548296192 "GET /favicon.ico HTTP/1.1" 404 2516
+[ERROR] 2019-11-15 19:04:43,720 log 38996 123145543041024 Internal Server Error: /api/plans/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plans_plan
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/generics.py", line 171, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/usr/local/lib/python3.7/site-packages/rest_framework/pagination.py", line 206, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/usr/local/lib/python3.7/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/usr/local/lib/python3.7/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.7/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.7/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plans_plan
+[ERROR] 2019-11-15 19:04:43,724 basehttp 38996 123145543041024 "GET /api/plans/ HTTP/1.1" 500 177664
+[WARNING] 2019-11-15 19:04:43,785 log 38996 123145548296192 Not Found: /favicon.ico
+[WARNING] 2019-11-15 19:04:43,785 basehttp 38996 123145548296192 "GET /favicon.ico HTTP/1.1" 404 2516
+[WARNING] 2019-11-15 19:04:55,338 log 38996 123145543041024 Method Not Allowed: /api/users/
+[WARNING] 2019-11-15 19:04:55,339 basehttp 38996 123145543041024 "GET /api/users/ HTTP/1.1" 405 8492
+[WARNING] 2019-11-15 19:04:55,431 log 38996 123145548296192 Not Found: /favicon.ico
+[WARNING] 2019-11-15 19:04:55,432 basehttp 38996 123145548296192 "GET /favicon.ico HTTP/1.1" 404 2516
+[INFO] 2019-11-15 19:06:13,525 autoreload 39269 4579536320 Watching for file changes with StatReloader
+[WARNING] 2019-11-15 19:06:25,309 log 39269 123145489235968 Not Found: /
+[WARNING] 2019-11-15 19:06:25,310 basehttp 39269 123145489235968 "GET / HTTP/1.1" 404 2465
+[INFO] 2019-11-15 19:06:30,884 basehttp 39269 123145489235968 "GET /api/plans/ HTTP/1.1" 200 9779
+[INFO] 2019-11-15 19:06:30,893 basehttp 39269 123145489235968 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,902 basehttp 39269 123145499746304 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,903 basehttp 39269 123145510256640 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,906 basehttp 39269 123145494491136 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,906 basehttp 39269 123145505001472 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,906 basehttp 39269 123145489235968 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,906 basehttp 39269 123145515511808 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,907 basehttp 39269 123145510256640 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,909 basehttp 39269 123145499746304 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,909 basehttp 39269 123145505001472 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:30,920 basehttp 39269 123145489235968 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[INFO] 2019-11-15 19:06:32,669 basehttp 39269 123145489235968 "GET /api/ HTTP/1.1" 200 9950
+[INFO] 2019-11-15 19:06:33,705 basehttp 39269 123145489235968 "GET /api/todos/ HTTP/1.1" 200 9779
+[WARNING] 2019-11-15 19:06:33,789 log 39269 123145520766976 Not Found: /favicon.ico
+[WARNING] 2019-11-15 19:06:33,790 basehttp 39269 123145520766976 "GET /favicon.ico HTTP/1.1" 404 2516
+[INFO] 2019-11-15 19:06:34,923 basehttp 39269 123145489235968 "GET /api/ HTTP/1.1" 200 9950
+[WARNING] 2019-11-15 19:06:36,074 log 39269 123145489235968 Method Not Allowed: /api/users/
+[WARNING] 2019-11-15 19:06:36,074 basehttp 39269 123145489235968 "GET /api/users/ HTTP/1.1" 405 8492
+[INFO] 2019-11-15 19:06:38,416 basehttp 39269 123145489235968 "OPTIONS /api/users/ HTTP/1.1" 200 8786

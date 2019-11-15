@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+*.sqlite
+*.sqlite3
+__pycache__/
+migrations/
